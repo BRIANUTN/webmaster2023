@@ -1,0 +1,29 @@
+h1{
+    font-size: 50px;
+    background-color:purple;
+    color: white;
+    text-align: center;
+   
+    
+
+}
+.CENTRADO{
+    text-align: center;
+
+}
+
+.cursiva{
+    font-style: italic;
+    font-size: large;
+
+}
+.derecha{
+    text-align: right;
+    
+
+}
+.ofuente{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:indigo
+
+}
