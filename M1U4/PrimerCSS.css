@@ -1,29 +1,24 @@
-h1{
+h1 {
     font-size: 50px;
-    background-color:purple;
+    background-color: purple;
     color: white;
     text-align: center;
-   
-    
-
 }
-.CENTRADO{
+
+.CENTRADO {
     text-align: center;
-
 }
 
-.cursiva{
+.cursiva {
     font-style: italic;
     font-size: large;
-
 }
-.derecha{
+
+.derecha {
     text-align: right;
-    
-
 }
-.ofuente{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:indigo
 
+.ofuente {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: indigo
 }
