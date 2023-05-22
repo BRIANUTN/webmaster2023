@@ -14,20 +14,20 @@ h1 {
     font-size: large;
 }
 
-.derecha {
-    text-align: right;
+.redes {
+    text-align: center;
 }
 
 .ofuente {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+
 }
 
 .fondo {
     box-shadow: 0px 0px 200px #900;
 }
 
-.columnas{
+.columnas {
     column-count: 2;
     column-gap: 20px;
 }
@@ -36,7 +36,23 @@ h1 {
     box-shadow: 0 0 20px #000000;
 }
 
-.fuente{
+.fuente {
     font-family: 'Oswald', sans-serif;
 }
 
+body {
+    background-color: #0000ff;
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-geometrico-azul_1409-961.jpg?w=1380&t=st=1684778470~exp=1684779070~hmac=ffd67a96ffb2065fb0dabb35bba5496143ed2a98225a7cadb414d7c39c6e563a');
+    background-size: cover;
+    background-position: center;
+}
+a:hover{
+    color: orange;
+}
+
+.CENTRADO{
+    box-shadow: 0 0 20px black;
+}
+.redes{
+    font-size: 50px;
+}
