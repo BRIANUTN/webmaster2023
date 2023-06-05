@@ -5,8 +5,10 @@ h1 {
     text-align: center;
 }
 
+
 .CENTRADO {
     text-align: center;
+    
 }
 
 .cursiva {
@@ -21,6 +23,9 @@ h1 {
 .ofuente {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
+}
+.ofuente:hover{
+    color: #ff0000;
 }
 
 .fondo {

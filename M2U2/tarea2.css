@@ -1,0 +1,38 @@
+.contenedor{
+    width: 500px;
+    height: 500px;
+    margin: 200px;
+    background-color:ghostwhite;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border:solid 2px;
+    
+}
+
+.red{
+    color: white;
+    width: 35%;
+    height: 33.3%;
+    background-color: red;
+    text-align:center;
+    line-height: 150px;
+}
+
+.blue{
+    color: white;
+    width: 35%;
+    height: 33.3%;
+    background-color: blue;
+    text-align: center;
+    line-height: 150px;
+}
+
+.green{
+    color: white;
+    width: 35%;
+    height: 33.3%;
+    background-color: green;
+    text-align: center;
+    line-height: 150px;
+}
