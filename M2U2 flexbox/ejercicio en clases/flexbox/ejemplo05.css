@@ -1,0 +1,24 @@
+.contenedor{
+	background-color: blue;
+	height: 500px;
+	display: flex;
+	flex-wrap: nowrap;
+	/* justify-content: center; */
+	justify-content: space-between;
+	/* align-content: flex-start; */
+	/*align-content: flex-end;*/
+	/* align-content: center; */
+	/* align-items: end; */
+	/* align-content: stretch; */
+	/*align-content: space-around;*/
+	/* align-content: space-between; */
+}
+
+.item{
+	background-color: #ccc;
+	width: 100px;
+	margin: 10px;
+	height: 100px;
+	font-size: 30px;
+}
+

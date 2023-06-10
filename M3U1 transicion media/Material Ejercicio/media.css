@@ -1,0 +1,48 @@
+@media screen and (min-width: 320px) and (max-width: 940px) {
+    body{
+        padding: 0px;
+        margin: 0px;
+        border-top: solid 1px;
+
+    }
+
+    .contenedor{
+        border-top: solid 1px;
+        width: 100%;
+    }
+
+    nav{
+        border-top: solid 1px;
+        width: 100%;
+        background-color: coral;
+        font-size: 20px;
+    }
+    
+    ul{
+        display: flex;
+        /* align-content: space-between; */
+    }
+
+    li{
+        margin-right: 15%;
+
+    }
+    section{
+        border-top: solid 1px;
+        background-color: gold;
+        margin: 0px;
+        width: 100%;
+    }
+    aside{
+        background-color:darkgoldenrod;
+        border-top: solid 1px;
+        width: 100%;
+    }
+    
+   h2, h1{
+    font-size: xx-large;
+    margin-left: 20%;
+   border: solid 2px black;
+   }
+    
+}
