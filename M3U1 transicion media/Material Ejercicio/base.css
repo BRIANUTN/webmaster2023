@@ -1,10 +1,43 @@
 @charset "utf-8";
 /* CSS Document */
+@keyframes titulo {
+    from {
+		font-size:20%;
+		margin-right:100%;
+    }
+    to {
+		font-size:200%;
+    }
+}
+
+h1{
+	animation-name: titulo;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+}
 
 body {
 	color: #000;
 	background: #332F29;
 	font-size:100%;
+}
+nav:hover{
+	transform: scale(1.1);
+	transition: all 0.5s ease;
+
+}
+section:hover{
+	transform: scale(1.1);
+	transition: all 0.5s ease;
+
+}
+aside:hover{
+	transform: scale(1.1);
+	transition: all 0.5s ease;
+
+}
+a:hover{
+	color: lightblue;
 }
 .contenedor {
 	width: 800px;

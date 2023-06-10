@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 940px) {
+@media screen and (min-width: 320px) and (max-width: 800px) {
     body{
         padding: 0px;
         margin: 0px;
@@ -18,6 +18,9 @@
         font-size: 20px;
     }
     
+ 
+   
+
     ul{
         display: flex;
         /* align-content: space-between; */
