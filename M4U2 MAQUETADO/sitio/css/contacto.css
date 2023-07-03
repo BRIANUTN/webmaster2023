@@ -2,6 +2,7 @@
 .contacto{
     display: flex;
     gap: 24;
+    margin-top: 20px;
 }
 
 .contacto div{
