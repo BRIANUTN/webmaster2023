@@ -10,13 +10,9 @@
     
         var dia,mes,anio;
         
-        dia=prompt('Ingrese día en números:','');
-        mes=prompt('Ingrese mes en números:','');
-        anio=prompt('Ingrese año en números:','');
+    
+        mes=parseInt(prompt('ingrese el mes en nros'))
         
-        dia=parseInt(dia); // parseInt > para que el operador + sume los contenidos de los valores numéricos ingresados por teclado
-        mes=parseInt(mes);
-        año=parseInt(anio);
         
         if (mes==1 || mes==2 || mes==3) { // || OR
             document.write('corresponde al primer trimestre del año.');

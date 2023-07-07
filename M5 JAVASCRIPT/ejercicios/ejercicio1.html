@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Ejercicio1</title>
+</head>
+
+<body>
+	<script>
+		var num1
+
+
+		num1 = prompt('A cuantos metros quiere viajar:');
+
+
+		if (num1 <= 1000) {
+			document.write('A Pie');
+		}
+
+		else {
+			if (num1 > 1000 && num1 <= 10000) {
+				document.write('En bicicleta');
+			}
+
+			if (num1 > 10000 && num1 <= 30000) {
+				document.write('En colectivo');
+			}
+
+			if (num1 > 30000 && num1 <= 100000) {
+				document.write('En auto');
+			}
+
+			if (num1 > 100000) {
+				document.write('En avión');
+			}
+
+		}
+
+	</script>
+
+</body>
+
+</html>
