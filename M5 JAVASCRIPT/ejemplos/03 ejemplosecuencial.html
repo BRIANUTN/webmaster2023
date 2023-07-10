@@ -8,22 +8,25 @@
 <body>
 
   <script>
-    var valor1;
-    var valor2;
-
+    var valor1,valor2
+  
     valor1 = prompt('Primer nro')
     valor2 = prompt('Segundo nro')
 
-    var suma = parseInt(valor1) + parseInt(valor2);
+
+    var suma = parseInt(valor1) + parseInt(valor2)
+    var producto = valor1 * valor2   
 
 
-    var producto = valor1 * valor2;
 
-    document.write('La suma es ');
-    document.write(suma);
-    document.write('<br>');
-    document.write('El producto es ');
-    document.write(producto);
+    document.write('La suma dio: ')
+    document.write(suma)
+    document.write(' y el producto es: ')
+    document.write(producto)
+
+    console.log('la suma es: ' + suma)
+    console.log(' y el producto es: ' + producto)
+  
   </script>
   
 </body>

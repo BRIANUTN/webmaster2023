@@ -26,11 +26,21 @@
                     document.write('corresponde al tercer trimestre del año.');
                 }
                 else  {
+                    if (mes==10 || mes==11 || mes==12){
                     document.write('corresponde al cuarto trimestre del año.');
+                }
+                else{
+                    if(mes>12){
+                        document.write('No existe el mes');
+                    }
+                }
+                    
+
                 }
             }
         }
         
+      
     </script>
 
 </body>

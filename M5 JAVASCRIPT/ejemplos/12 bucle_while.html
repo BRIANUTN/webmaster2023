@@ -8,17 +8,17 @@
 <body>
 	<script>
 	var x=1;
-	var cuantos=5;
+	var cuantos=3;
 	var suma=0;
 	var valor;
 	
 	while (x<=cuantos){
-	  valor=prompt('Ingrese el valor '+ x +' de ' + cuantos + ':','');
+	  valor=prompt('Ingrese el valor '+ x +' de ' + cuantos + ':');
 	  valor=parseInt(valor);
 	  suma=suma+valor;
-	  x=x+1;
+	  x++
 	}
-	document.write("La suma de los valores es "+ suma +"<br/>");
+	document.write("La suma de los valores es "+ suma );
 	</script>
 </body>
 </html>
