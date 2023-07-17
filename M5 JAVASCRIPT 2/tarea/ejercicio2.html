@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+
+  <form>
+
+    <label for="mensaje">Escribir</label><br>
+
+    <textarea id="mensaje" name="mensaje" oninput="contarCaracteres()"></textarea><br>
+
+    <span id="contador">0</span> caracteres<br>
+
+    <input type="submit" value="Enviar">
+
+  </form>
+
+  <script>
+
+    function contarCaracteres() {
+      var textarea = document.getElementById("mensaje");
+      var contador = document.getElementById("contador");
+      contador.textContent = textarea.value.length;
+    }
+
+
+  </script>
+</body>
+
+</html>

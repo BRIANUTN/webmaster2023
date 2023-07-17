@@ -32,6 +32,8 @@
 .formulario p{
     display: flex;
     font-weight: bold;
+    margin-left: 20px;
+    text-shadow: 1px 1px 1px black;
 }
 .formulario p label{
     min-width: 70px;
@@ -88,6 +90,7 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.20);
     border-radius: 2px;
+    
 }
 
 .datos p{
@@ -100,6 +103,7 @@
     font-size: 20px;
     margin-left: 50px;
     color: cadetblue;
+    text-shadow: 1px 1px 1px black;
 }
 
 .datos ul li{
