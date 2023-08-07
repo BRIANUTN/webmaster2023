@@ -4,28 +4,29 @@
         <div class="rapido">
 
         <h2>Contacto Rápido</h2>
-      <form action="" method="" class="formulario">
+      <form action="/contacto" method="post" class="formulario">
         <p>
             <label for="name">Nombre</label>
-            <input type="text" id="name">
+            <input type="text" name="nombre">
         </p>
         <p>
             <label for="mail">Mail</label>
-            <input type="text" id="mail">
+            <input type="text" name="email">
         </p>
         <p>
             <label for="telefono">Telefono</label>
-            <input type="text" id="telefono">
+            <input type="text" name="tel">
         </p>
         <p>
             <label for="comentario">Mensaje</label>
-            <textarea name="coment" id="comentario" cols="30" rows="10"></textarea>
+            <textarea  name="mensaje" cols="30" rows="10"></textarea>
         </p>
         <p class="acciones">
-            <input type="submit"> 
+            <input type="submit" value="Enviar"> 
         
 
       </form>
+      <p> {{message}} </p>
     </div>
 
 
