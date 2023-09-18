@@ -1,0 +1,160 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Zilla Slab', serif; */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Zilla Slab', serif;
+    line-height: 28px;
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+header {
+    background-color: cadetblue;
+    background-image: url(https://st2.depositphotos.com/34923518/44550/i/1600/depositphotos_445507600-stock-photo-different-types-bread-black-background.jpg);
+    background-position: center;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+header h1 {
+    color: peru;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: sans-serif;
+    transform: rotate(90deg);
+    margin-left: -110px;
+}
+
+header img {
+    border-radius: 40px;
+}
+
+nav {
+    background-color: antiquewhite;
+    margin-bottom: 1px;
+    border-radius: 20px 0 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: indianred;
+    border-radius: 50px 20px 50px 20px;
+}
+
+footer {
+    background-color: grey;
+    opacity: 0.5;
+    color: whitesmoke;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+nav ul li a.activo {
+    background-color: brown;
+    border-radius: 50px 20px 50px 20px;
+}
+
+h5{
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: peru;
+    background-color: maroon;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.homeimg {
+    display: flex;
+}
+
+.homeimg img {
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+
+h2 {
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+
+/* INICIO HOME */
+.columnas {
+    display: flex;
+}
+
+.bienvenidos {
+    width: 75%;
+    margin-top: 5px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.09);
+    text-align: center;
+    
+
+
+}
+
+.testimonios {
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.09);
+    text-align: right;
+
+
+}
+
+.bienvenidos p {
+    font-size: 20px;
+}
+
+.testimonio cita {
+    font-size: 20px;
+}
+
+.testimonio autor {
+    font-size: 14px;
+}
+
+/* FIN HOME */

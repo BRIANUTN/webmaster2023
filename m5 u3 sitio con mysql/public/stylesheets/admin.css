@@ -1,0 +1,50 @@
+header {
+    border-bottom: solid 5px grey;
+}
+header img{
+    transform: scale(0.8);
+}
+
+header h1{
+    transform: rotate(360deg);
+    position: relative;
+    top: 135px;
+    left: 50px;
+}
+
+form {
+    text-align: center;
+}
+
+.container{
+    margin-top: 20px;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-minimalista-dibujado-mano_23-2148997841.jpg?w=2000);
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 1px -77px 215px -68px rgba(0,0,0,0.99) inset;
+-webkit-box-shadow: 1px -77px 215px -68px rgba(0,0,0,0.99) inset;
+-moz-box-shadow: 1px -77px 215px -68px rgba(0,0,0,0.99) inset;
+}
+
+.container2{
+    padding: 5px;
+    position: relative;
+    left: 477px;
+    margin-top: 1px;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/270/769/desktop-wallpaper-log-on-screen-login.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px 0 0 40px;
+    height: 50px;
+}
+
+.row{
+    text-align: center;
+}
+
+p{
+    font-family: sans-serif;
+}
