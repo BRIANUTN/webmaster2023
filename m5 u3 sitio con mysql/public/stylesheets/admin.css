@@ -48,3 +48,14 @@ form {
 p{
     font-family: sans-serif;
 }
+
+.incorrecto{
+    margin-left: 230px;
+    color: red;
+    text-align: center;
+    border-radius: 60px;
+    background-image: url(https://us.123rf.com/450wm/benzoix/benzoix1707/benzoix170700024/81453659-resumen-de-color-rosa-claro-fondo-rojo-dise%C3%B1o-de-dise%C3%B1o-de-navidad-y-san-valent%C3%ADn-estudio.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+}
