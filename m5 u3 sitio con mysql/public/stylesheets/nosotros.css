@@ -5,7 +5,7 @@ main h1{
     background-image: url(https://media.istockphoto.com/id/905921664/es/vector/productos-de-panader%C3%ADa-banner-horizontal-frontera-realista-o-encabezado.jpg?s=1024x1024&w=is&k=20&c=3F0lfcDegmkL1vbkbfA63wrGfy6KEPOz7bM9FFPhZII=);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
     color: saddlebrown;
 
@@ -25,7 +25,7 @@ main h1{
 .persona{
     background-color: rgba(231, 145, 6, 0.041);
     width: 200px;
-    border-radius: 30px;
+    border-radius: 10px;
     box-shadow: 0 0 5px black;
 }
 
@@ -37,11 +37,15 @@ main h1{
 
 .persona h2{
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
+    border-radius: 50px;
+    transform: scale(0.8);
+    position: relative;
+    bottom: 20px;
 }
 
 .persona h3{
-    padding-top: 10px;
+    padding-top: 5px;
     text-align: center;
     font-size: 17px;
 }
@@ -49,7 +53,9 @@ main h1{
 .persona:hover{
     transform: scale(1.1);
     transition: all 0.2s ease;
-    border-radius: 20px; 
+    border-radius: 60px; 
 }
+
+
 
 
