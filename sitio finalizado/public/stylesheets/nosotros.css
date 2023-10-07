@@ -1,25 +1,30 @@
 main h1{
     margin-top: 20px;
+    margin-bottom: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 22px;
     background-image: url(https://media.istockphoto.com/id/905921664/es/vector/productos-de-panader%C3%ADa-banner-horizontal-frontera-realista-o-encabezado.jpg?s=1024x1024&w=is&k=20&c=3F0lfcDegmkL1vbkbfA63wrGfy6KEPOz7bM9FFPhZII=);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
-    text-align: center;
-    color: saddlebrown;
+    text-align: left;
+    color: peru;
+    text-decoration: underline;
 
 }
 
 .historia p{
     font-size: 29px;
+    font-family: 'Times New Roman', Times, serif;
     background-color: rgba(0, 0, 0, 0.09);
     text-align: center;
+
 }
 
 .personal{
     display: flex;
     justify-content: space-between;
+
 }
 
 .persona{
