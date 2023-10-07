@@ -1,0 +1,50 @@
+main h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: peru;
+    background-color: maroon;
+    border-radius: 50px 50px 0 0;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 40px;
+
+}
+
+main h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    background-color: maroon;
+    border-radius: 50px 0 0 50px;
+    text-align: right;
+    padding-right: 20px;
+    color: peru;
+    font-style: italic;
+
+}
+
+
+
+.carousel1 img {
+    border: 1px solid grey;
+    height: 200px;
+    width: 900px auto;
+    object-fit: cover;
+}
+
+
+
+.carousel2 img {
+    border: 1px solid grey;
+    margin-top: 10px;
+    height: 200px;
+    width: 900px auto;
+    object-fit: cover;
+}
+
+.carousel3 img {
+    border: 1px solid grey;
+    margin-top: 10px;
+    height: 200px;
+    width: 900px auto;
+    object-fit: cover;
+}

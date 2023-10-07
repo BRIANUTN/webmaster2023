@@ -1,0 +1,79 @@
+header {
+    border-bottom: solid 5px grey;
+}
+header img{
+    transform: scale(0.8);
+}
+
+header h1{
+    transform: rotate(360deg);
+    position: relative;
+    top: 135px;
+    left: 50px;
+}
+
+h8{
+    font-size: 20px;
+    color: maroon;
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+}
+
+.container{
+    margin-top: 20px;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-minimalista-dibujado-mano_23-2148997841.jpg?w=2000);
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 1px -77px 215px -68px rgba(0,0,0,0.99) inset;
+-webkit-box-shadow: 1px -77px 215px -68px rgba(0,0,0,0.99) inset;
+-moz-box-shadow: 1px -77px 215px -68px rgba(0,0,0,0.99) inset;
+}
+
+.containerNovedad{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 60px;
+    width: 50rem;
+    background-image: url(https://serviciosintegralesdeingenieria.es/wp-content/uploads/2018/07/fondo-formulario.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container2{
+    padding: 5px;
+    margin-top: 1px;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/270/769/desktop-wallpaper-log-on-screen-login.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px 0 0 40px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.row{
+    text-align: center;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+.incorrecto{
+    margin-left: 230px;
+    color: red;
+    text-align: center;
+    border-radius: 60px;
+    background-image: url(https://us.123rf.com/450wm/benzoix/benzoix1707/benzoix170700024/81453659-resumen-de-color-rosa-claro-fondo-rojo-dise%C3%B1o-de-dise%C3%B1o-de-navidad-y-san-valent%C3%ADn-estudio.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+}
